@@ -1,5 +1,5 @@
 import { describe, expect, it } from "vitest";
-import { parseHelsinkiDate } from "@ohjelmistokehitys/time-tools"
+import { parseHelsinkiDate } from "./tools";
 
 describe("parseHelsinkiDate", () => {
     it("parses local date correctly", () => {

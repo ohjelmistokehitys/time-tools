@@ -2,12 +2,12 @@
   "name": "@ohjelmistokehitys/time-tools",
   "version": "1.0.0",
   "description": "Tools for time related operations",
-  "main": "build/tools.js",
   "scripts": {
-    "test": "vitest run ./src/*.spec.ts"
+    "test": "vitest run"
   },
-  "author": "",
-  "license": "ISC",
+  "files": [
+    "build"
+  ],
   "devDependencies": {
     "@types/luxon": "^3.7.1",
     "typescript": "^5.9.2",
@@ -16,9 +16,5 @@
   "dependencies": {
     "luxon": "^3.7.2"
   },
-  "files": [
-    "build",
-    "!*.spec.*"
-  ],
   "type": "module"
 }
