@@ -5,6 +5,7 @@
   "scripts": {
     "test": "vitest run"
   },
+  "main": "build/tools.js",
   "files": [
     "build"
   ],
