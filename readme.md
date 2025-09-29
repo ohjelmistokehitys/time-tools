@@ -1,11 +1,33 @@
 # Time related tools
 
-This package contains tools for time related operations, such as converting times between formats and timezones. The project is not meant to be used in production, but rather as an example of how to create packages.
+This package contains tools for time related operations, such as converting times between formats and timezones. The project is not meant to be used in production, but rather as an example of how to create packages on Haaga-Helia programming courses.
 
-The best way to understand the contents of the package is to take a look at the [tools.ts](src/tools.ts) file, which contains the "production code", as well as the [tools.test.ts](src/tools.test.ts) file, which contains unit tests.
+You can find the published package on https://www.npmjs.com/package/@ohjelmistokehitys/time-tools and the source code on https://github.com/ohjelmistokehitys/time-tools.
 
-You can find the published package on https://www.npmjs.com/package/@ohjelmistokehitys/time-tools.
 
+## Source code
+
+The best way to understand the contents of the package is to take a look at the `tools.ts` file, which contains the "production code", as well as the `tools.test.ts` file, which contains unit tests.
+
+## How to use this package
+
+You can install this package in your project with:
+
+```bash
+npm install @ohjelmistokehitys/time-tools
+```
+
+Then, you can use the package in your code like this:
+
+```ts
+import { parseHelsinkiTime } from '@ohjelmistokehitys/time-tools';
+
+// parses a non-standard date string in Helsinki timezone
+// and returns a Date object with timezone information
+const date = parseHelsinkiTime("2027-05-15 09:10");
+
+console.log(date.toISOString()); // 2027-05-15T06:10:00.000Z
+```
 
 ## How to build this package
 
