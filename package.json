@@ -1,6 +1,6 @@
 {
   "name": "@ohjelmistokehitys/time-tools",
-  "version": "4.0.0",
+  "version": "4.0.1",
   "description": "Tools for time related operations",
   "main": "build/tools.js",
   "files": [
