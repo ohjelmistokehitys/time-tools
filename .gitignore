@@ -1,3 +1,4 @@
 .devcontainer
 build
 node_modules
+*.tgz

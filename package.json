@@ -12,8 +12,8 @@
   },
   "devDependencies": {
     "@types/luxon": "^3.7.1",
-    "typescript": "^5.9.2",
-    "vitest": "^3.2.4"
+    "typescript": "^7.0.2",
+    "vitest": "^5.0.0"
   },
   "dependencies": {
     "luxon": "^3.7.2"
